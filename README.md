@@ -21,7 +21,7 @@
 
 <h2 id="1">Overview</h2>
 
-Pack EOS World in Mobile, Carry Blockchain Age with You！  
+Pack VKT World in Mobile, Carry Blockchain Age with You！  
    
 Now we opensourced our backend server too(apply to blackbox mode).
 
@@ -29,7 +29,7 @@ What we provide in this project：
 
 &emsp;`1.Realtime market rates: Here we request the coinmarketcap for certain token rates. The rates were based on multiple exchange market.`
 
-&emsp;`2.General EOS error code specification without importing EOSIO code base(EOSJS/EOS C++): We provide a gobal standard error code based on eos source code,which could make better user experience, and educate more about what really happened when error occurred.`
+&emsp;`2.General VKT error code specification without importing VKTIO code base(VKTJS/VKT C++): We provide a gobal standard error code based on eos source code,which could make better user experience, and educate more about what really happened when error occurred.`
 
 &emsp;`3.Server can pack you own transactions as you want, apply to scenes like:new account creating, transfer for operator, airdrop, all kinds of contract call, and etc.`
 
@@ -98,14 +98,14 @@ https://docs.google.com/spreadsheets/d/1uHeNDLnCVygqYK-V01CFANuxUwgRkNkrmeLm9MLq
 
 ### FC Layer Exceptions
 
-EOS is based on grephene framework, which defines the error code of FC layer in [FC expceptions file](https://github.com/EOSIO/fc/blob/df5a17ef0704d7dd96c444bfd9a70506bcfbc057/include/fc/exception/exception.hpp).
+VKT is based on grephene framework, which defines the error code of FC layer in [FC expceptions file](https://github.com/EOSIO/fc/blob/df5a17ef0704d7dd96c444bfd9a70506bcfbc057/include/fc/exception/exception.hpp).
 
 We unified the error code with a offset of 3990000.
 ![](https://github.com/OracleChain/EosProxyServer/raw/master/screenshots/shieldserver.02.png)
 
 ### Chain Layer Exceptions
 
-When dealing with EOS blockchain rpc service, most of the exceptions were [CHAIN exceptions](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/exceptions.hpp), and we using it directly with some self defined code here.
+When dealing with VKT blockchain rpc service, most of the exceptions were [CHAIN exceptions](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/exceptions.hpp), and we using it directly with some self defined code here.
 ![](https://github.com/OracleChain/EosProxyServer/raw/master/screenshots/shieldserver.01.png)
 
 ------------------------------
@@ -179,9 +179,9 @@ Then, using push_action RPC interface to handle the trx request.The trx could be
 ------------------------------
 <h2 id="7">About OracleChain</h2>
 
-As the world’s first application built on an EOS ecosphere, OracleChain needs to meet the demands of the Oracle (oracle machine) ecosystem by efficiently linking blockchain technology services with various real-life scenarios, thereby delving into this immense tens of billions of dollars valuation market.
+As the world’s first application built on an VKT ecosphere, OracleChain needs to meet the demands of the Oracle (oracle machine) ecosystem by efficiently linking blockchain technology services with various real-life scenarios, thereby delving into this immense tens of billions of dollars valuation market.
 
-As a decentralized Oracle technology platform based on the EOS platform, the autonomous Proof-of-Reputation & Deposit mechanism is adopted and used as a fundamental service for other blockchain applications.In addition to Oracle services that provide real-world data to the blockchain, Oracle services that provide cross-chain data are also offered. Given that OracleChain can accomplish the functions of several prediction market applications, such as Augur and Gnosis, OracleChain can also support smart contract businesses that require high-frequency access to outside data in certain scenarios, such as Robo-Advisor.
+As a decentralized Oracle technology platform based on the VKT platform, the autonomous Proof-of-Reputation & Deposit mechanism is adopted and used as a fundamental service for other blockchain applications.In addition to Oracle services that provide real-world data to the blockchain, Oracle services that provide cross-chain data are also offered. Given that OracleChain can accomplish the functions of several prediction market applications, such as Augur and Gnosis, OracleChain can also support smart contract businesses that require high-frequency access to outside data in certain scenarios, such as Robo-Advisor.
 
 OracleChain will nurture and serve those blockchain applications that change the real world. Our mission is to “Link Data, Link World,” with the aim of becoming the infrastructure linking the real world with the blockchain world.
 
