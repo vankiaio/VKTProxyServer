@@ -1,8 +1,8 @@
-[中文版](https://github.com/OracleChain/EosProxyServer/blob/master/README-cn.md)
+[中文版](https://github.com/vankiaio/VKTProxyServer/blob/master/README-cn.md)
 
 # About
 
-**EosProxyServer** is the backend server of PocketEOS(blackbox mode),which is developed by [OracleChain.io](https://oraclechain.io).
+**VKTProxyServer** is the backend server of PocketVKT(blackbox mode),which is developed by [OracleChain.io](https://oraclechain.io).
 
 -------------------------------
 
